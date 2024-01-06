@@ -1,0 +1,115 @@
+{
+    "report_title": "Misanthropic Magpie",
+    "report_number": "20240105-001",
+    "sensitivity": null,
+    "traffic_light_protocol": "amber",
+    "criticality": "low",
+    "executive_summary": "Beginning in late 1974, Misanthropic Magpie has been quietly conducting mostly unsuccessful attempts to extort value from turnips in a process known as \"juicing\". These failures have been attributed to the dense nature of the structures housing the aforementioned turnip \"juice.\" \n\nDespite these setbacks, Misanthropic Magpie has shown that it's is nothing if not patient and dedicated. Recently, the actor has added the \"Juice Tiger\" toolset to its campaigns. This new tool has not resulted in any significant breaches of \"juice\", but it is believed that as Misanthropic Magpie is developing a companion add-on tool for \"Juice Tiger\" and which may warrant a reassessment of the threat posed. ",
+    "key_points": "Floppy disks are outdated \nActor wants to punish those electing to continue using outdated tech\nThe actor's .onion site is frequently unavailable. A fact largely attributed to a phenomenon that the actor refers to as \"lunchtime\"\nAvoid at all costs",
+    "assessment": "CTI assesses the threat posed by Misanthropic Magpie is low, unless you happen to use vast numbers of floppy disks. Both 5.25 and 3.5 disk formats are at significant risk of malicious destructive attacks.",
+    "threat_actor": {
+        "summary": "Old and resurgent, but low skilled threat actor with vast experience in cat herding.",
+        "ttp": "Magnetic wiping, physical destruction, planned obsolescence. ",
+        "infrastructure": "Old HP desktop PC, Android device, Flipper Zero located in suburban Paris France",
+        "victims": "Floppy Disk Repair Industry",
+        "attribution": "BJS"
+    },
+    "timeline": [
+        {
+            "attribution": "Misanthropic Magpie",
+            "start_date": "1974-12-05T00:00:00.000Z",
+            "end_date": "1974-12-06T00:00:00.000Z",
+            "location": "USA",
+            "sector": "NAICS 622",
+            "activity": "First appearance - Actor emerged with first destructive act of a hospital delivery system"
+        },
+        {
+            "attribution": null,
+            "start_date": "1981-03-31T00:00:00.000Z",
+            "end_date": "1981-03-30T00:00:00.000Z",
+            "location": "USA",
+            "sector": "NAICS 81",
+            "activity": "Planted 5.25 floppy disk in the dwelling of J.H. Jr. with instruction on how to \"Thrill Sagan.\" The instructions for which were later misinterpreted  "
+        },
+        {
+            "attribution": null,
+            "start_date": "2023-12-03T00:00:00.000Z",
+            "end_date": "2023-12-16T00:00:00.000Z",
+            "location": "FRA",
+            "sector": "NAICS 722",
+            "activity": "Untold kilograms of fine fromage pilfered from multiple retail locations in Paris"
+        },
+        {
+            "attribution": null,
+            "start_date": null,
+            "end_date": null,
+            "location": null,
+            "sector": null,
+            "activity": null
+        }
+    ],
+    "intelligence_gaps": null,
+    "mitre_attack_table": [],
+    "victims": [
+        {
+            "victim_name": "Hospital with No Name",
+            "date_reported": "1974-12-06T00:00:00.000Z",
+            "sector": "NAICS 62",
+            "location_granular": "A State",
+            "location_region": "USA"
+        },
+        {
+            "victim_name": "Ronald Reagan",
+            "date_reported": "1981-04-01T00:00:00.000Z",
+            "sector": "NAICS 813",
+            "location_granular": "Washington DC",
+            "location_region": "USA"
+        },
+        {
+            "victim_name": "Mr. Frenchy",
+            "date_reported": "2023-12-10T00:00:00.000Z",
+            "sector": "NAICS 722",
+            "location_granular": "Paris",
+            "location_region": "FRA"
+        }
+    ],
+    "iocs": {
+        "malware": [
+            {
+                "attribution": null,
+                "ioc_malware_name": "Juice Tiger",
+                "ioc_malware_sandbox": null,
+                "ioc_malware_hash_type": null,
+                "ioc_malware_hash": "09b9395a2627dd65070e92ecf919534bfa1d33f7c1de6378076ab8154bdbb829",
+                "ioc_associated_file_hash": null,
+                "ioc_malware_description": null,
+                "first_reported": null,
+                "last_reported": null
+            }
+        ],
+        "network": [],
+        "system_artifacts": [],
+        "cves": []
+    },
+    "signatures": [],
+    "intelligence_requirements": [],
+    "data_sources": {
+        "report_citations": [],
+        "internal_telemetry": []
+    },
+    "metadata": {
+        "threat_actor_name": null,
+        "threat_actor_aliases": null,
+        "victim_location": [],
+        "sectors": [],
+        "infrastructure_used": [],
+        "threat_actor_motivation": []
+    },
+    "report_date": "2024-01-06T02:00:38.636Z",
+    "__document": {
+        "authoring_tool_version": "1.0.0",
+        "template_name": "Threat Actor Profile",
+        "template_version": "0.1.0",
+        "template_identifier": "e4e907ac-f845-4b51-a73f-ab511456ce74"
+    }
+}
